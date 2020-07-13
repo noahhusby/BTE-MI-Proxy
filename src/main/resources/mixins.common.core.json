@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.noahhusby.bteproxy.mixin.core",
+  "refmap": "mixins.bteproxy.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "network.handshake.client.C00HandshakeAccessor",
+    "network.NetworkManagerMixin"
+  ],
+  "server": [
+    "network.handshake.client.C00HandshakeMixin_Forge"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "conformVisibility": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "minVersion": "0.8",
+  "package": "com.noahhusby.bteproxy.mixin.bungee",
+  "refmap": "mixins.bteproxy.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "NetHandlerHandshakeTCPMixin_Bungee"
+  ],
+  "server": [
+    "NetHandlerHandshakeTCPMixin_Common_Bungee",
+    "NetHandlerLoginServerMixin_Bungee",
+    "NetworkManagerMixin_Bungee",
+    "packet.C00HandshakeMixin_Bungee"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

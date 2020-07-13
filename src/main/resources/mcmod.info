@@ -1,0 +1,15 @@
+[
+{
+  "modid": "bte-proxy",
+  "name": "BTE Proxy",
+  "description": "A bungeecord compatible proxy for Build the Earth servers.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["noahhusby"],
+  "credits": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
