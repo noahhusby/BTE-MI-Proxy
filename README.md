@@ -1,4 +1,4 @@
-# BTE-MI-Proxy
+# BTE-Proxy
 This is a server-side mod which adds suport for Bungeecord's IP Forwarding without the need for Sponge, Spigot, Bukkit, etc.
 
 ## Usage
